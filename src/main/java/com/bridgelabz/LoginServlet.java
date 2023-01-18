@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 @WebServlet(description = "Login Servlet Testing", urlPatterns = { "/LoginServlet" },
 
 		// Setting a couple of initial parameter for the servlet
-		initParams = { @WebInitParam(name = "user", value = "Moin"),
+		initParams = { @WebInitParam(name = "user", value = "Rahul"),
 				@WebInitParam(name = "password", value = "Bridgelabz@123") })
 
 public class LoginServlet extends HttpServlet {
